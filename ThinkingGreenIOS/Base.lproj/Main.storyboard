@@ -48,7 +48,7 @@
                                     <color key="titleColor" red="0.10640063622351449" green="0.72994251943005184" blue="0.050230157878517784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="B2J-FH-6YX" kind="show" id="2Ay-xG-J3Z"/>
+                                    <segue destination="Pya-gQ-odf" kind="show" id="2Ay-xG-J3Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-DU-RpH">
@@ -108,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="1461" y="423"/>
         </scene>
-        <!--View Controller-->
+        <!--Institución-->
         <scene sceneID="YZY-Jf-C9K">
             <objects>
                 <viewController id="B2J-FH-6YX" sceneMemberID="viewController">
@@ -118,10 +118,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Nwb-Y6-KSR"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Institución" id="YyQ-i8-SyY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6kb-uy-eTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1460" y="-241"/>
+            <point key="canvasLocation" x="2399.1999999999998" y="-241.52923538230885"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Z0d-gz-8mx">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pya-gQ-odf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OtJ-UC-ben">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="B2J-FH-6YX" kind="relationship" relationship="viewControllers" id="fTF-Li-R6H"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7w-wP-pG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="-241.52923538230885"/>
         </scene>
     </scenes>
 </document>
