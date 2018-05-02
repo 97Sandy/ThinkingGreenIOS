@@ -12,6 +12,15 @@
 		26752B7320896776007490E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26752B7120896776007490E1 /* Main.storyboard */; };
 		26752B7520896777007490E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26752B7420896777007490E1 /* Assets.xcassets */; };
 		26752B7820896777007490E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26752B7620896777007490E1 /* LaunchScreen.storyboard */; };
+		268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268626A9209A3D0D00EA28BB /* listaConVC.swift */; };
+		268626AC209A3D3E00EA28BB /* CeldaCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268626AB209A3D3E00EA28BB /* CeldaCon.swift */; };
+		2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E311209A460D00E4A98A /* consejosWebVC.swift */; };
+		26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */; };
+		26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */; };
+		26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C5209A2447008D69E2 /* tiendasVC.swift */; };
+		26E6B2C8209A319B008D69E2 /* webVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C7209A319B008D69E2 /* webVC.swift */; };
+		26E6B2CB209A3253008D69E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E6B2CA209A3253008D69E2 /* WebKit.framework */; };
+		26F063B720996FFC00953DF6 /* recompensasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F063B620996FFC00953DF6 /* recompensasVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		26752B7420896777007490E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26752B7720896777007490E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26752B7920896777007490E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268626A9209A3D0D00EA28BB /* listaConVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaConVC.swift; sourceTree = "<group>"; };
+		268626AB209A3D3E00EA28BB /* CeldaCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCon.swift; sourceTree = "<group>"; };
+		2698E311209A460D00E4A98A /* consejosWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consejosWebVC.swift; sourceTree = "<group>"; };
+		26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRecom.swift; sourceTree = "<group>"; };
+		26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTienda.swift; sourceTree = "<group>"; };
+		26E6B2C5209A2447008D69E2 /* tiendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiendasVC.swift; sourceTree = "<group>"; };
+		26E6B2C7209A319B008D69E2 /* webVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webVC.swift; sourceTree = "<group>"; };
+		26E6B2CA209A3253008D69E2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		26F063B620996FFC00953DF6 /* recompensasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recompensasVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E6B2CB209A3253008D69E2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				26752B6C20896776007490E1 /* ThinkingGreenIOS */,
 				26752B6B20896776007490E1 /* Products */,
+				26E6B2C9209A3252008D69E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +80,24 @@
 				26752B7420896777007490E1 /* Assets.xcassets */,
 				26752B7620896777007490E1 /* LaunchScreen.storyboard */,
 				26752B7920896777007490E1 /* Info.plist */,
+				26F063B620996FFC00953DF6 /* recompensasVC.swift */,
+				26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */,
+				26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */,
+				26E6B2C5209A2447008D69E2 /* tiendasVC.swift */,
+				26E6B2C7209A319B008D69E2 /* webVC.swift */,
+				268626A9209A3D0D00EA28BB /* listaConVC.swift */,
+				268626AB209A3D3E00EA28BB /* CeldaCon.swift */,
+				2698E311209A460D00E4A98A /* consejosWebVC.swift */,
 			);
 			path = ThinkingGreenIOS;
+			sourceTree = "<group>";
+		};
+		26E6B2C9209A3252008D69E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26E6B2CA209A3253008D69E2 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				26752B7020896776007490E1 /* ViewController.swift in Sources */,
+				2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */,
+				268626AC209A3D3E00EA28BB /* CeldaCon.swift in Sources */,
+				268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */,
 				26752B6E20896776007490E1 /* AppDelegate.swift in Sources */,
+				26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */,
+				26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */,
+				26F063B720996FFC00953DF6 /* recompensasVC.swift in Sources */,
+				26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */,
+				26E6B2C8209A319B008D69E2 /* webVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
