@@ -17,7 +17,7 @@ class consejosWebVC: UIViewController, WKNavigationDelegate {
         webConsejo.navigationDelegate = self
         // Do any additional setup after loading the view.
         
-        let dir="https://orgranico.com/recopilatorio-11-alternativas-zero-waste/"
+        let dir="http://www.vertebella.com/recicla-neumaticos-y-decora-tu-casa-con-estas-ideas/"
         let url = URL (string: dir)!
         let request = URLRequest (url: url)
         webConsejo.load(request)
