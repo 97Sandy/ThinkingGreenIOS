@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mit-Ep-mwr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1255,7 +1255,7 @@ Creemos también en comprar sólo a compañias que efectúan sus pruebas de segu
         <image name="pawn" width="27" height="35"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KgH-ua-NbH"/>
+        <segue reference="ff3-3A-OO4"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
