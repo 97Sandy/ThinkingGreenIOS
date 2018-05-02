@@ -15,6 +15,8 @@
 		268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268626A9209A3D0D00EA28BB /* listaConVC.swift */; };
 		268626AC209A3D3E00EA28BB /* CeldaCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268626AB209A3D3E00EA28BB /* CeldaCon.swift */; };
 		2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E311209A460D00E4A98A /* consejosWebVC.swift */; };
+		2698E314209A4D4000E4A98A /* restaurantesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E313209A4D4000E4A98A /* restaurantesVC.swift */; };
+		2698E316209A4E0400E4A98A /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */; };
 		26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */; };
 		26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */; };
 		26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C5209A2447008D69E2 /* tiendasVC.swift */; };
@@ -34,6 +36,8 @@
 		268626A9209A3D0D00EA28BB /* listaConVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listaConVC.swift; sourceTree = "<group>"; };
 		268626AB209A3D3E00EA28BB /* CeldaCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCon.swift; sourceTree = "<group>"; };
 		2698E311209A460D00E4A98A /* consejosWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consejosWebVC.swift; sourceTree = "<group>"; };
+		2698E313209A4D4000E4A98A /* restaurantesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantesVC.swift; sourceTree = "<group>"; };
+		2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
 		26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRecom.swift; sourceTree = "<group>"; };
 		26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTienda.swift; sourceTree = "<group>"; };
 		26E6B2C5209A2447008D69E2 /* tiendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiendasVC.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				268626A9209A3D0D00EA28BB /* listaConVC.swift */,
 				268626AB209A3D3E00EA28BB /* CeldaCon.swift */,
 				2698E311209A460D00E4A98A /* consejosWebVC.swift */,
+				2698E313209A4D4000E4A98A /* restaurantesVC.swift */,
+				2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */,
 			);
 			path = ThinkingGreenIOS;
 			sourceTree = "<group>";
@@ -171,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2698E316209A4E0400E4A98A /* CeldaRestaurante.swift in Sources */,
 				26752B7020896776007490E1 /* ViewController.swift in Sources */,
 				2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */,
 				268626AC209A3D3E00EA28BB /* CeldaCon.swift in Sources */,
+				2698E314209A4D4000E4A98A /* restaurantesVC.swift in Sources */,
 				268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */,
 				26752B6E20896776007490E1 /* AppDelegate.swift in Sources */,
 				26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */,
