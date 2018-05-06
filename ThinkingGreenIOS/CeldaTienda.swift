@@ -12,4 +12,5 @@ class CeldaTienda: UICollectionViewCell {
     
     @IBOutlet weak var lblTienda: UILabel!
     @IBOutlet weak var lblDesc: UITextView!
+    @IBOutlet weak var imgTienda: UIImageView!
 }

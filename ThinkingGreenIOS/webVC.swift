@@ -13,6 +13,10 @@ class webVC: UIViewController,  WKNavigationDelegate {
 
     @IBOutlet weak var webConsejo: WKWebView!
     
+    @IBOutlet weak var webCargando: UIActivityIndicatorView!
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        webCargando.stopAnimating()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         

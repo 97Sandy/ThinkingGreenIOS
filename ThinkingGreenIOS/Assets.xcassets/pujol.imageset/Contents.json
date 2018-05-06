@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "checkBoxNo.png",
+      "filename" : "fe70b27d639b1242e952b6feb1311d99_pujol.jpg",
       "scale" : "1x"
     },
     {
@@ -17,8 +17,5 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }

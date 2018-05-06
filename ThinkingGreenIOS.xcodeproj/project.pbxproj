@@ -17,12 +17,14 @@
 		2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E311209A460D00E4A98A /* consejosWebVC.swift */; };
 		2698E314209A4D4000E4A98A /* restaurantesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E313209A4D4000E4A98A /* restaurantesVC.swift */; };
 		2698E316209A4E0400E4A98A /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */; };
+		26A8AA03209EC4DB0003DE2A /* ajustesVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */; };
 		26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */; };
 		26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */; };
 		26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C5209A2447008D69E2 /* tiendasVC.swift */; };
 		26E6B2C8209A319B008D69E2 /* webVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C7209A319B008D69E2 /* webVC.swift */; };
 		26E6B2CB209A3253008D69E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E6B2CA209A3253008D69E2 /* WebKit.framework */; };
 		26F063B720996FFC00953DF6 /* recompensasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F063B620996FFC00953DF6 /* recompensasVC.swift */; };
+		940EB2ACBC5B825188776B8A /* Pods_ThinkingGreenIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6644820B0EB39DBDD5709EC9 /* Pods_ThinkingGreenIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +40,17 @@
 		2698E311209A460D00E4A98A /* consejosWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consejosWebVC.swift; sourceTree = "<group>"; };
 		2698E313209A4D4000E4A98A /* restaurantesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantesVC.swift; sourceTree = "<group>"; };
 		2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
+		26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ajustesVCViewController.swift; sourceTree = "<group>"; };
+		26A8AA0A209ED7AC0003DE2A /* ThinkingGreenIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkingGreenIOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRecom.swift; sourceTree = "<group>"; };
 		26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTienda.swift; sourceTree = "<group>"; };
 		26E6B2C5209A2447008D69E2 /* tiendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiendasVC.swift; sourceTree = "<group>"; };
 		26E6B2C7209A319B008D69E2 /* webVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webVC.swift; sourceTree = "<group>"; };
 		26E6B2CA209A3253008D69E2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		26F063B620996FFC00953DF6 /* recompensasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recompensasVC.swift; sourceTree = "<group>"; };
+		6644820B0EB39DBDD5709EC9 /* Pods_ThinkingGreenIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkingGreenIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD07BD6FFD9A8A7EFCD810A /* Pods-ThinkingGreenIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkingGreenIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkingGreenIOS/Pods-ThinkingGreenIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9EAD8E998C4E6F77272C0292 /* Pods-ThinkingGreenIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkingGreenIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkingGreenIOS/Pods-ThinkingGreenIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E6B2CB209A3253008D69E2 /* WebKit.framework in Frameworks */,
+				940EB2ACBC5B825188776B8A /* Pods_ThinkingGreenIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +72,7 @@
 				26752B6C20896776007490E1 /* ThinkingGreenIOS */,
 				26752B6B20896776007490E1 /* Products */,
 				26E6B2C9209A3252008D69E2 /* Frameworks */,
+				A739C6C847757640EFA49912 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +103,8 @@
 				2698E311209A460D00E4A98A /* consejosWebVC.swift */,
 				2698E313209A4D4000E4A98A /* restaurantesVC.swift */,
 				2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */,
+				26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */,
+				26A8AA0A209ED7AC0003DE2A /* ThinkingGreenIOS-Bridging-Header.h */,
 			);
 			path = ThinkingGreenIOS;
 			sourceTree = "<group>";
@@ -102,8 +113,18 @@
 			isa = PBXGroup;
 			children = (
 				26E6B2CA209A3253008D69E2 /* WebKit.framework */,
+				6644820B0EB39DBDD5709EC9 /* Pods_ThinkingGreenIOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A739C6C847757640EFA49912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD07BD6FFD9A8A7EFCD810A /* Pods-ThinkingGreenIOS.debug.xcconfig */,
+				9EAD8E998C4E6F77272C0292 /* Pods-ThinkingGreenIOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26752B7C20896777007490E1 /* Build configuration list for PBXNativeTarget "ThinkingGreenIOS" */;
 			buildPhases = (
+				3C64CE6E4356027CBCDE4A09 /* [CP] Check Pods Manifest.lock */,
 				26752B6620896776007490E1 /* Sources */,
 				26752B6720896776007490E1 /* Frameworks */,
 				26752B6820896776007490E1 /* Resources */,
+				33045C1818688159F4520287 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +161,7 @@
 				TargetAttributes = {
 					26752B6920896776007490E1 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -172,6 +196,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33045C1818688159F4520287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThinkingGreenIOS/Pods-ThinkingGreenIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkingGreenIOS/Pods-ThinkingGreenIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C64CE6E4356027CBCDE4A09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThinkingGreenIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26752B6620896776007490E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -185,6 +248,7 @@
 				268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */,
 				26752B6E20896776007490E1 /* AppDelegate.swift in Sources */,
 				26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */,
+				26A8AA03209EC4DB0003DE2A /* ajustesVCViewController.swift in Sources */,
 				26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */,
 				26F063B720996FFC00953DF6 /* recompensasVC.swift in Sources */,
 				26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */,
@@ -330,8 +394,10 @@
 		};
 		26752B7D20896777007490E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD07BD6FFD9A8A7EFCD810A /* Pods-ThinkingGreenIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CPDF7T32Y;
 				INFOPLIST_FILE = ThinkingGreenIOS/Info.plist;
@@ -341,15 +407,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.thinkingGreen.ThinkingGreenIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkingGreenIOS/ThinkingGreenIOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		26752B7E20896777007490E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAD8E998C4E6F77272C0292 /* Pods-ThinkingGreenIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CPDF7T32Y;
 				INFOPLIST_FILE = ThinkingGreenIOS/Info.plist;
@@ -359,8 +429,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.itesm.thinkingGreen.ThinkingGreenIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkingGreenIOS/ThinkingGreenIOS-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,4 +12,5 @@ class CeldaRestaurante: UICollectionViewCell {
     
     @IBOutlet weak var lblRestaurante: UILabel!
     @IBOutlet weak var tvDesRestaurante: UITextView!
+    @IBOutlet weak var imgRest: UIImageView!
 }

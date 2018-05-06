@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "checkBoxNo.png",
+      "filename" : "3c195d25471c724949ac8c4c9543a90b_peltre.png",
       "scale" : "1x"
     },
     {
@@ -17,8 +17,5 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }

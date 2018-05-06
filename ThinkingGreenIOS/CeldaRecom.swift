@@ -13,4 +13,7 @@ class CeldaRecom: UICollectionViewCell {
     @IBOutlet weak var lblTitulo: UILabel!
     @IBOutlet weak var lblPuntos: UILabel!
     @IBOutlet weak var lblTema: UILabel!
+    @IBOutlet weak var imgPuntos: UIImageView!
+    @IBOutlet weak var imgRegalo: UIImageView!
+    
 }

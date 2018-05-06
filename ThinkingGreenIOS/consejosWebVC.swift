@@ -12,6 +12,12 @@ import WebKit
 class consejosWebVC: UIViewController, WKNavigationDelegate {
 
     @IBOutlet weak var webConsejo: WKWebView!
+    @IBOutlet weak var aiConsejo: UIActivityIndicatorView!
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        aiConsejo.stopAnimating()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         webConsejo.navigationDelegate = self

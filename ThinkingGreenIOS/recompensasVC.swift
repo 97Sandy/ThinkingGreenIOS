@@ -9,15 +9,20 @@
 import UIKit
 
 class recompensasVC: UIViewController, UICollectionViewDelegate,UICollectionViewDataSource {
-    
+    let arrTemas = ["Tema Obscuro", "Tema Claro", "Tema Inverso", "Tema Acuático" ]
+    let arrTitulo = ["THMDRK", "THMCLR", "THMINVRS", "THMAQUA"]
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return 4
     }
     
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let celda = collectionView.dequeueReusableCell(withReuseIdentifier: "celdaRecom", for: indexPath) as! CeldaRecom
-        
+        celda.lblPuntos.text = String ((indexPath.row + 2)*10)
+        celda.lblTema.text = arrTemas[indexPath.row]
+        celda.lblTitulo.text = arrTitulo[indexPath.row]
+        celda.imgPuntos.image = UIImage(named: "ic_bug_report_black_48dp")
+        celda.imgRegalo.image = UIImage(named: "ic_card_giftcard_black_48dp")
         return celda
         
     }

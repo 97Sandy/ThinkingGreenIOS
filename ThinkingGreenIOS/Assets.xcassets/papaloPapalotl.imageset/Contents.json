@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "checkBoxNo.png",
+      "filename" : "40429bd0259ecf9fe4e30f463a0243b6_PapaloPapalotl.jpg",
       "scale" : "1x"
     },
     {
@@ -17,8 +17,5 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }
