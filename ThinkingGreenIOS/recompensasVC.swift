@@ -8,7 +8,13 @@
 
 import UIKit
 
+var puntos = 7
+
 class recompensasVC: UIViewController, UICollectionViewDelegate,UICollectionViewDataSource {
+    
+    @IBOutlet weak var lblPuntos: UILabel!
+    
+    
     let arrTemas = ["Tema Obscuro", "Tema Claro", "Tema Inverso", "Tema Acuático" ]
     let arrTitulo = ["THMDRK", "THMCLR", "THMINVRS", "THMAQUA"]
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -30,7 +36,9 @@ class recompensasVC: UIViewController, UICollectionViewDelegate,UICollectionView
    
 
     override func viewDidLoad() {
+        lblPuntos.text = String (puntos)
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }

@@ -544,7 +544,7 @@ Ciudad de México</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FV-Hx-fpV">
-                                <rect key="frame" x="16" y="64" width="343" height="583"/>
+                                <rect key="frame" x="16" y="64" width="343" height="545"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -555,6 +555,13 @@ Ciudad de México</string>
                                 <rect key="frame" x="169" y="347" width="37" height="37"/>
                                 <color key="color" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8n-C8-ogb">
+                                <rect key="frame" x="138" y="617" width="98" height="30"/>
+                                <state key="normal" title="Consejo Leído"/>
+                                <connections>
+                                    <action selector="consejoLeido:" destination="Rhr-9N-VhP" eventType="touchUpInside" id="Nzd-Sp-H7w"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <accessibility key="accessibilityConfiguration" label="Consejos">
@@ -565,7 +572,9 @@ Ciudad de México</string>
                             <constraint firstItem="LpP-oe-u5r" firstAttribute="centerX" secondItem="N40-nb-wSS" secondAttribute="centerX" id="T3G-C6-cJo"/>
                             <constraint firstItem="1FV-Hx-fpV" firstAttribute="leading" secondItem="N40-nb-wSS" secondAttribute="leading" constant="16" id="Tcb-Ze-iqa"/>
                             <constraint firstItem="LpP-oe-u5r" firstAttribute="centerY" secondItem="N40-nb-wSS" secondAttribute="centerY" id="ZGO-Pp-FWE"/>
-                            <constraint firstItem="N40-nb-wSS" firstAttribute="bottom" secondItem="1FV-Hx-fpV" secondAttribute="bottom" constant="20" id="qfd-ug-P6L"/>
+                            <constraint firstItem="N40-nb-wSS" firstAttribute="bottom" secondItem="j8n-C8-ogb" secondAttribute="bottom" constant="20" id="cOH-vS-iK1"/>
+                            <constraint firstItem="j8n-C8-ogb" firstAttribute="centerX" secondItem="N40-nb-wSS" secondAttribute="centerX" id="fsf-Df-uzG"/>
+                            <constraint firstItem="N40-nb-wSS" firstAttribute="bottom" secondItem="1FV-Hx-fpV" secondAttribute="bottom" constant="58" id="qfd-ug-P6L"/>
                             <constraint firstItem="N40-nb-wSS" firstAttribute="trailing" secondItem="1FV-Hx-fpV" secondAttribute="trailing" constant="16" id="qzn-7t-o9t"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="N40-nb-wSS"/>
@@ -577,7 +586,7 @@ Ciudad de México</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dg2-Ps-cjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8393" y="1313"/>
+            <point key="canvasLocation" x="8392.7999999999993" y="1312.8935532233884"/>
         </scene>
         <!--YoutubeVC-->
         <scene sceneID="8XO-Jd-sAC">
@@ -1283,6 +1292,9 @@ Creemos también en comprar sólo a compañias que efectúan sus pruebas de segu
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MbE-U7-SNQ"/>
                     </view>
+                    <connections>
+                        <outlet property="lblPuntos" destination="iIF-7N-P4D" id="LUq-xW-Oe5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MbM-Zd-b50" sceneMemberID="firstResponder"/>
             </objects>

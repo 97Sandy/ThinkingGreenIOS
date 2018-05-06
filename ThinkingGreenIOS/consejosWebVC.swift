@@ -14,6 +14,11 @@ class consejosWebVC: UIViewController, WKNavigationDelegate {
     @IBOutlet weak var webConsejo: WKWebView!
     @IBOutlet weak var aiConsejo: UIActivityIndicatorView!
     
+    @IBAction func consejoLeido(_ sender: Any) {
+        puntos = puntos+2
+        Toast.long(message: "Consejo Leído +2 puntos", success: "1", failer: "0")
+            
+    }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         aiConsejo.stopAnimating()
     }
@@ -27,6 +32,7 @@ class consejosWebVC: UIViewController, WKNavigationDelegate {
         let url = URL (string: dir)!
         let request = URLRequest (url: url)
         webConsejo.load(request)
+        
 
         // Do any additional setup after loading the view.
     }

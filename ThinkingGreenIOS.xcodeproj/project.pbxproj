@@ -18,6 +18,10 @@
 		2698E314209A4D4000E4A98A /* restaurantesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E313209A4D4000E4A98A /* restaurantesVC.swift */; };
 		2698E316209A4E0400E4A98A /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */; };
 		26A8AA03209EC4DB0003DE2A /* ajustesVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */; };
+		26B866BF209F7BCE00604E13 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B866BB209F7BCD00604E13 /* ToastView.swift */; };
+		26B866C0209F7BCE00604E13 /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B866BC209F7BCD00604E13 /* myView.swift */; };
+		26B866C1209F7BCE00604E13 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B866BD209F7BCD00604E13 /* Toast.swift */; };
+		26B866C2209F7BCE00604E13 /* Toast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B866BE209F7BCD00604E13 /* Toast.xib */; };
 		26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */; };
 		26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */; };
 		26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6B2C5209A2447008D69E2 /* tiendasVC.swift */; };
@@ -42,6 +46,10 @@
 		2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
 		26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ajustesVCViewController.swift; sourceTree = "<group>"; };
 		26A8AA0A209ED7AC0003DE2A /* ThinkingGreenIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkingGreenIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		26B866BB209F7BCD00604E13 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		26B866BC209F7BCD00604E13 /* myView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
+		26B866BD209F7BCD00604E13 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		26B866BE209F7BCD00604E13 /* Toast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Toast.xib; sourceTree = "<group>"; };
 		26E6B2C1209A2293008D69E2 /* CeldaRecom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRecom.swift; sourceTree = "<group>"; };
 		26E6B2C3209A240C008D69E2 /* CeldaTienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTienda.swift; sourceTree = "<group>"; };
 		26E6B2C5209A2447008D69E2 /* tiendasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiendasVC.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				2698E315209A4E0400E4A98A /* CeldaRestaurante.swift */,
 				26A8AA02209EC4DB0003DE2A /* ajustesVCViewController.swift */,
 				26A8AA0A209ED7AC0003DE2A /* ThinkingGreenIOS-Bridging-Header.h */,
+				26B866BC209F7BCD00604E13 /* myView.swift */,
+				26B866BD209F7BCD00604E13 /* Toast.swift */,
+				26B866BE209F7BCD00604E13 /* Toast.xib */,
+				26B866BB209F7BCD00604E13 /* ToastView.swift */,
 			);
 			path = ThinkingGreenIOS;
 			sourceTree = "<group>";
@@ -189,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26752B7820896777007490E1 /* LaunchScreen.storyboard in Resources */,
+				26B866C2209F7BCE00604E13 /* Toast.xib in Resources */,
 				26752B7520896777007490E1 /* Assets.xcassets in Resources */,
 				26752B7320896776007490E1 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2698E316209A4E0400E4A98A /* CeldaRestaurante.swift in Sources */,
+				26B866C1209F7BCE00604E13 /* Toast.swift in Sources */,
 				26752B7020896776007490E1 /* ViewController.swift in Sources */,
 				2698E312209A460D00E4A98A /* consejosWebVC.swift in Sources */,
 				268626AC209A3D3E00EA28BB /* CeldaCon.swift in Sources */,
@@ -248,10 +262,12 @@
 				268626AA209A3D0D00EA28BB /* listaConVC.swift in Sources */,
 				26752B6E20896776007490E1 /* AppDelegate.swift in Sources */,
 				26E6B2C2209A2293008D69E2 /* CeldaRecom.swift in Sources */,
+				26B866BF209F7BCE00604E13 /* ToastView.swift in Sources */,
 				26A8AA03209EC4DB0003DE2A /* ajustesVCViewController.swift in Sources */,
 				26E6B2C6209A2447008D69E2 /* tiendasVC.swift in Sources */,
 				26F063B720996FFC00953DF6 /* recompensasVC.swift in Sources */,
 				26E6B2C4209A240C008D69E2 /* CeldaTienda.swift in Sources */,
+				26B866C0209F7BCE00604E13 /* myView.swift in Sources */,
 				26E6B2C8209A319B008D69E2 /* webVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
