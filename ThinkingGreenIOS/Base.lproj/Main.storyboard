@@ -44,7 +44,7 @@
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KM1-kW-Zvf">
-                                <rect key="frame" x="130" y="350" width="116" height="34"/>
+                                <rect key="frame" x="129.5" y="350" width="116" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Iniciar Sessión">
                                     <color key="titleColor" red="0.10640063622351449" green="0.72994251943005184" blue="0.050230157878517784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -73,7 +73,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKE-DU-RpH">
-                                <rect key="frame" x="134" y="392" width="108" height="34"/>
+                                <rect key="frame" x="133.5" y="392" width="108" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Crear Cuenta">
                                     <color key="titleColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -285,14 +285,48 @@ Ciudad de México</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geF-94-AiF">
+                                <rect key="frame" x="134" y="617" width="107" height="30"/>
+                                <state key="normal" title="Ver en un Mapa"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="geF-94-AiF" firstAttribute="centerX" secondItem="WIt-rl-EgL" secondAttribute="centerX" id="Nnl-g1-yAI"/>
+                            <constraint firstItem="WIt-rl-EgL" firstAttribute="bottom" secondItem="geF-94-AiF" secondAttribute="bottom" constant="20" id="pFR-AK-3fI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WIt-rl-EgL"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DgU-Bf-7ng" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4725.6000000000004" y="3041.8290854572715"/>
+        </scene>
+        <!--Ubicación Tienda-->
+        <scene sceneID="3bU-aL-tiO">
+            <objects>
+                <viewController title="Ubicación Tienda" id="RYN-Fp-ncv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CE1-vI-E53">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MBf-9K-oLs">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MBf-9K-oLs" firstAttribute="top" secondItem="Mgx-C4-A3F" secondAttribute="top" id="3Ac-f2-Rb5"/>
+                            <constraint firstAttribute="bottom" secondItem="MBf-9K-oLs" secondAttribute="bottom" constant="20" symbolic="YES" id="6eV-lu-h4a"/>
+                            <constraint firstItem="MBf-9K-oLs" firstAttribute="leading" secondItem="Mgx-C4-A3F" secondAttribute="leading" constant="16" id="Jhm-hB-E5B"/>
+                            <constraint firstItem="Mgx-C4-A3F" firstAttribute="trailing" secondItem="MBf-9K-oLs" secondAttribute="trailing" constant="16" id="e3V-Gu-28m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mgx-C4-A3F"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tvT-vw-MzH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5813.6000000000004" y="3054.4227886056974"/>
         </scene>
         <!--Menú Principal-->
         <scene sceneID="YZY-Jf-C9K">
@@ -303,7 +337,7 @@ Ciudad de México</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINK-IN' GREEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGc-OI-ycc">
-                                <rect key="frame" x="104" y="64" width="144.5" height="24"/>
+                                <rect key="frame" x="115" y="64" width="145" height="24"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -315,7 +349,7 @@ Ciudad de México</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16b-mh-oWN">
-                                <rect key="frame" x="44" y="452" width="72" height="72"/>
+                                <rect key="frame" x="44" y="442" width="72" height="72"/>
                                 <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="ic_restaurant_black_48dp">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -325,23 +359,13 @@ Ciudad de México</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1s-dW-Td2">
-                                <rect key="frame" x="140" y="334" width="72" height="72"/>
+                                <rect key="frame" x="151" y="318" width="72" height="72"/>
                                 <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="ic_chrome_reader_mode_black_48dp">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <segue destination="kir-6H-5H4" kind="show" id="LFc-JG-U5N"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPW-Hc-IfF">
-                                <rect key="frame" x="259" y="452" width="72" height="72"/>
-                                <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="ic_settings_black_48dp">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="w2M-LL-ml0" kind="show" id="yus-Qs-YhP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido Usuario Prueba2:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEN-dv-JK1">
@@ -351,10 +375,7 @@ Ciudad de México</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nM-xo-NHv">
-                                <rect key="frame" x="240" y="177" width="91" height="93"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="91" id="Mqm-Ww-rl9"/>
-                                </constraints>
+                                <rect key="frame" x="271" y="186" width="62" height="75"/>
                                 <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="ic_card_giftcard_black_48dp">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -364,41 +385,92 @@ Ciudad de México</string>
                                     <segue destination="CVg-xm-eHd" kind="show" id="dim-Ce-Nvp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKf-gR-3CN">
+                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKf-gR-3CN">
                                 <rect key="frame" x="44" y="187" width="72" height="72"/>
                                 <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="ic_local_grocery_store_black_48dp">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="ic_store_mall_directory_black_48dp">
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
                                     <segue destination="vBX-zp-TK6" kind="show" id="Ico-n4-jQa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPW-Hc-IfF">
+                                <rect key="frame" x="287" y="442" width="72" height="72"/>
+                                <color key="tintColor" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="ic_settings_black_48dp">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="w2M-LL-ml0" kind="show" id="yus-Qs-YhP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiendas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dV-Yh-Y0q">
+                                <rect key="frame" x="48" y="251" width="64" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recompensas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kB-yB-k4R">
+                                <rect key="frame" x="246" y="251" width="113" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurantes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quy-il-hsW">
+                                <rect key="frame" x="27" y="515" width="106.5" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajustes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoH-uA-9Gf">
+                                <rect key="frame" x="293" y="515" width="60" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consejos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEY-3V-4R2">
+                                <rect key="frame" x="151" y="387" width="74" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.21975813450000001" green="0.72994251939999999" blue="0.050446377600000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="SKf-gR-3CN" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="44" id="05T-e4-sAa"/>
-                            <constraint firstItem="16b-mh-oWN" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="44" id="09w-j1-o6s"/>
-                            <constraint firstItem="7nM-xo-NHv" firstAttribute="trailing" secondItem="cPW-Hc-IfF" secondAttribute="trailing" id="2jI-Ud-X3x"/>
+                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="bottom" secondItem="quy-il-hsW" secondAttribute="bottom" constant="131" id="0id-U8-oSr"/>
+                            <constraint firstItem="7nM-xo-NHv" firstAttribute="centerX" secondItem="6kB-yB-k4R" secondAttribute="centerX" id="2Uf-xG-uke"/>
                             <constraint firstItem="ZEN-dv-JK1" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="16" id="556-jc-Yme"/>
+                            <constraint firstItem="SGc-OI-ycc" firstAttribute="centerX" secondItem="Nwb-Y6-KSR" secondAttribute="centerX" id="8cO-Yr-3cZ"/>
+                            <constraint firstItem="SKf-gR-3CN" firstAttribute="centerX" secondItem="9dV-Yh-Y0q" secondAttribute="centerX" id="9QN-tY-0Su"/>
                             <constraint firstItem="Mkh-wY-ANM" firstAttribute="top" secondItem="ZEN-dv-JK1" secondAttribute="bottom" constant="8" id="9fx-FZ-8uC"/>
-                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="bottom" secondItem="cPW-Hc-IfF" secondAttribute="bottom" constant="143" id="DLs-q4-1sl"/>
-                            <constraint firstItem="cPW-Hc-IfF" firstAttribute="top" secondItem="16b-mh-oWN" secondAttribute="top" id="Hjw-DL-p4t"/>
-                            <constraint firstItem="D1s-dW-Td2" firstAttribute="centerX" secondItem="SGc-OI-ycc" secondAttribute="centerX" id="Ira-yw-mBU"/>
-                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" secondItem="Mkh-wY-ANM" secondAttribute="trailing" constant="200" id="Jba-zW-bve"/>
-                            <constraint firstItem="SKf-gR-3CN" firstAttribute="top" secondItem="Mkh-wY-ANM" secondAttribute="bottom" constant="22" id="Jg8-ZL-NvA"/>
+                            <constraint firstItem="cPW-Hc-IfF" firstAttribute="top" secondItem="16b-mh-oWN" secondAttribute="top" id="C9v-bw-aDT"/>
+                            <constraint firstItem="IEY-3V-4R2" firstAttribute="top" secondItem="D1s-dW-Td2" secondAttribute="bottom" constant="-3" id="Kpc-5d-a5c"/>
+                            <constraint firstItem="SKf-gR-3CN" firstAttribute="top" secondItem="Mkh-wY-ANM" secondAttribute="bottom" constant="22" id="LRf-aa-qId"/>
                             <constraint firstItem="Mkh-wY-ANM" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="16" id="MIw-dT-sFE"/>
+                            <constraint firstItem="6kB-yB-k4R" firstAttribute="top" secondItem="7nM-xo-NHv" secondAttribute="bottom" constant="-10" id="NZm-Op-Vzv"/>
+                            <constraint firstItem="IEY-3V-4R2" firstAttribute="centerX" secondItem="SGc-OI-ycc" secondAttribute="centerX" id="PDv-dW-9G5"/>
                             <constraint firstItem="ZEN-dv-JK1" firstAttribute="top" secondItem="SGc-OI-ycc" secondAttribute="bottom" constant="30.5" id="Q1Q-vo-wms"/>
-                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="bottom" secondItem="D1s-dW-Td2" secondAttribute="bottom" constant="261" id="Tcm-xM-nZ2"/>
-                            <constraint firstItem="7nM-xo-NHv" firstAttribute="bottom" secondItem="SKf-gR-3CN" secondAttribute="bottom" constant="11" id="YxK-7J-Qaw"/>
-                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" secondItem="cPW-Hc-IfF" secondAttribute="trailing" constant="44" id="fse-ba-l4D"/>
-                            <constraint firstItem="SGc-OI-ycc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Nwb-Y6-KSR" secondAttribute="leading" id="ftX-d3-B0U"/>
+                            <constraint firstItem="SKf-gR-3CN" firstAttribute="centerX" secondItem="quy-il-hsW" secondAttribute="centerX" id="R5B-Wb-SkR"/>
+                            <constraint firstItem="SKf-gR-3CN" firstAttribute="leading" secondItem="16b-mh-oWN" secondAttribute="leading" id="W9Z-sc-pea"/>
+                            <constraint firstItem="6kB-yB-k4R" firstAttribute="trailing" secondItem="cPW-Hc-IfF" secondAttribute="trailing" id="ZeJ-MQ-A9j"/>
+                            <constraint firstItem="IEY-3V-4R2" firstAttribute="leading" secondItem="D1s-dW-Td2" secondAttribute="leading" id="cel-f8-5dJ"/>
+                            <constraint firstItem="D1s-dW-Td2" firstAttribute="top" secondItem="ZEN-dv-JK1" secondAttribute="bottom" constant="179" id="dS4-N9-cQu"/>
+                            <constraint firstItem="eoH-uA-9Gf" firstAttribute="top" secondItem="cPW-Hc-IfF" secondAttribute="bottom" constant="1" id="dWJ-nj-QLO"/>
+                            <constraint firstItem="7nM-xo-NHv" firstAttribute="centerY" secondItem="SKf-gR-3CN" secondAttribute="centerY" id="eQl-yR-7oM"/>
+                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" secondItem="7nM-xo-NHv" secondAttribute="trailing" constant="42" id="eyI-MC-8Kf"/>
+                            <constraint firstItem="6kB-yB-k4R" firstAttribute="baseline" secondItem="9dV-Yh-Y0q" secondAttribute="baseline" id="fv7-Wb-ppO"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mkh-wY-ANM" secondAttribute="trailing" constant="20" symbolic="YES" id="hzu-7d-PHR"/>
                             <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" secondItem="ZEN-dv-JK1" secondAttribute="trailing" constant="128" id="kNX-Bu-lwg"/>
-                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SGc-OI-ycc" secondAttribute="trailing" id="ki8-vs-YEl"/>
                             <constraint firstItem="SGc-OI-ycc" firstAttribute="top" secondItem="Nwb-Y6-KSR" secondAttribute="top" id="mN9-4F-LMN"/>
-                            <constraint firstItem="7nM-xo-NHv" firstAttribute="top" secondItem="ZEN-dv-JK1" secondAttribute="bottom" constant="38" id="nek-yX-vv5"/>
-                            <constraint firstItem="D1s-dW-Td2" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="140" id="yXd-XX-0cS"/>
+                            <constraint firstItem="quy-il-hsW" firstAttribute="top" secondItem="16b-mh-oWN" secondAttribute="bottom" constant="1" id="nL9-EZ-H0x"/>
+                            <constraint firstItem="cPW-Hc-IfF" firstAttribute="centerX" secondItem="eoH-uA-9Gf" secondAttribute="centerX" id="npP-gm-3pc"/>
+                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="trailing" secondItem="6kB-yB-k4R" secondAttribute="trailing" constant="16" id="oet-h6-h7y"/>
+                            <constraint firstItem="D1s-dW-Td2" firstAttribute="centerX" secondItem="Nwb-Y6-KSR" secondAttribute="centerX" id="ofP-2r-nhG"/>
+                            <constraint firstItem="Nwb-Y6-KSR" firstAttribute="bottom" secondItem="IEY-3V-4R2" secondAttribute="bottom" constant="259" id="uNK-Vo-CIl"/>
+                            <constraint firstItem="SKf-gR-3CN" firstAttribute="leading" secondItem="Nwb-Y6-KSR" secondAttribute="leading" constant="44" id="urf-k8-EVW"/>
+                            <constraint firstItem="9dV-Yh-Y0q" firstAttribute="top" secondItem="SKf-gR-3CN" secondAttribute="bottom" constant="-8" id="z3g-HS-V9J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Nwb-Y6-KSR"/>
                     </view>
@@ -431,7 +503,7 @@ Ciudad de México</string>
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Oj1-Jr-IIf">
-                                <rect key="frame" x="169" y="337" width="37" height="37"/>
+                                <rect key="frame" x="169.5" y="337" width="37" height="37"/>
                                 <color key="color" red="1" green="0.88917427029999996" blue="0.3560134787" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                         </subviews>
@@ -556,7 +628,7 @@ Ciudad de México</string>
                                 <color key="color" red="1" green="0.90076784700000001" blue="0.39778671770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8n-C8-ogb">
-                                <rect key="frame" x="138" y="617" width="98" height="30"/>
+                                <rect key="frame" x="138.5" y="617" width="98" height="30"/>
                                 <state key="normal" title="Consejo Leído"/>
                                 <connections>
                                     <action selector="consejoLeido:" destination="Rhr-9N-VhP" eventType="touchUpInside" id="Nzd-Sp-H7w"/>
@@ -587,42 +659,6 @@ Ciudad de México</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dg2-Ps-cjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8392.7999999999993" y="1312.8935532233884"/>
-        </scene>
-        <!--YoutubeVC-->
-        <scene sceneID="8XO-Jd-sAC">
-            <objects>
-                <viewController id="L07-dp-JHb" customClass="youtubeVC" customModule="ThinkingGreenIOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HHD-uL-Fri">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="571-KA-J7i" customClass="YTPlayerView">
-                                <rect key="frame" x="16" y="87" width="343" height="167"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consejo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxw-Go-Edv">
-                                <rect key="frame" x="16" y="20" width="93" height="32"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Bn3-4z-djy" firstAttribute="bottom" secondItem="571-KA-J7i" secondAttribute="bottom" constant="413" id="19R-wl-6NA"/>
-                            <constraint firstItem="Bn3-4z-djy" firstAttribute="trailing" secondItem="mxw-Go-Edv" secondAttribute="trailing" constant="266" id="1Gn-N3-rBx"/>
-                            <constraint firstItem="571-KA-J7i" firstAttribute="leading" secondItem="Bn3-4z-djy" secondAttribute="leading" constant="16" id="dRU-ez-xfU"/>
-                            <constraint firstItem="Bn3-4z-djy" firstAttribute="trailing" secondItem="571-KA-J7i" secondAttribute="trailing" constant="16" id="eOW-Vf-QZ1"/>
-                            <constraint firstItem="mxw-Go-Edv" firstAttribute="leading" secondItem="Bn3-4z-djy" secondAttribute="leading" constant="16" id="jRo-1f-Xy7"/>
-                            <constraint firstItem="571-KA-J7i" firstAttribute="top" secondItem="mxw-Go-Edv" secondAttribute="bottom" constant="35" id="tO4-JQ-hKG"/>
-                            <constraint firstItem="mxw-Go-Edv" firstAttribute="top" secondItem="Bn3-4z-djy" secondAttribute="top" id="wm0-cA-xkx"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Bn3-4z-djy"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gez-JL-kBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8392.7999999999993" y="2086.5067466266869"/>
         </scene>
         <!--Configuración-->
         <scene sceneID="K9T-ZR-6U7">
@@ -1002,14 +1038,48 @@ Creemos también en comprar sólo a compañias que efectúan sus pruebas de segu
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TR1-0Q-i1f">
+                                <rect key="frame" x="134" y="617" width="107" height="30"/>
+                                <state key="normal" title="Ver en un Mapa"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TR1-0Q-i1f" firstAttribute="centerX" secondItem="CAO-QN-Db6" secondAttribute="centerX" id="Bgb-1u-dh2"/>
+                            <constraint firstItem="CAO-QN-Db6" firstAttribute="bottom" secondItem="TR1-0Q-i1f" secondAttribute="bottom" constant="20" id="qRx-qU-k62"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="CAO-QN-Db6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2a8-nJ-0BI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5105" y="90"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6OX-bc-RuG">
+            <objects>
+                <viewController id="aml-zV-m9Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="51m-FQ-Rk1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="NbV-yi-KgR">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NbV-yi-KgR" firstAttribute="top" secondItem="vFT-e5-bNN" secondAttribute="top" id="HCA-7a-wgB"/>
+                            <constraint firstItem="vFT-e5-bNN" firstAttribute="trailing" secondItem="NbV-yi-KgR" secondAttribute="trailing" constant="16" id="f9k-3Y-yz2"/>
+                            <constraint firstItem="NbV-yi-KgR" firstAttribute="leading" secondItem="51m-FQ-Rk1" secondAttribute="leadingMargin" id="g3V-0l-Z9e"/>
+                            <constraint firstAttribute="bottom" secondItem="NbV-yi-KgR" secondAttribute="bottom" constant="20" symbolic="YES" id="pgD-CU-blU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vFT-e5-bNN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1A-kx-QD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6044" y="81.409295352323838"/>
         </scene>
         <!--Personal-->
         <scene sceneID="5f8-K2-vds">
@@ -1307,7 +1377,6 @@ Creemos también en comprar sólo a compañias que efectúan sus pruebas de segu
         <image name="ic_card_giftcard_black_48dp" width="54" height="54"/>
         <image name="ic_chrome_reader" width="30" height="30"/>
         <image name="ic_chrome_reader_mode_black_48dp" width="72" height="72"/>
-        <image name="ic_local_grocery_store_black_48dp" width="72" height="72"/>
         <image name="ic_restaurant_black_48dp" width="72" height="72"/>
         <image name="ic_settings" width="30" height="30"/>
         <image name="ic_settings_black_48dp" width="72" height="72"/>
